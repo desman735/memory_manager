@@ -142,6 +142,8 @@
     <ClCompile Include="MemoryManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coalesce_allocator.h" />
+    <ClInclude Include="definitions.h" />
     <ClInclude Include="fixed_size_allocator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -23,5 +23,11 @@
     <ClInclude Include="fixed_size_allocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="coalesce_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

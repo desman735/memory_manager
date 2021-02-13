@@ -1,10 +1,13 @@
 #include <iostream>
 
 #include "fixed_size_allocator.h"
+#include "coalesce_allocator.h"
 
 int main()
 {
-    fixed_size_allocator<16, 256> test("test");
+    coalesce_allocator<12, 256> test("test");
+
+    auto size = test.real_block_size;
 
     int* allocated_addrs[23]; 
     for(int count = 0; count < 16; ++count)

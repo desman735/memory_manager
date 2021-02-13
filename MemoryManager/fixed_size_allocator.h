@@ -9,8 +9,7 @@
 
 #include <windows.h>
 
-constexpr int KB = 1024;
-constexpr int MB = KB * 1024;
+#include "definitions.h"
 
 template<size_t block_size, size_t page_size = 4*KB>
 class fixed_size_allocator final
